@@ -1,0 +1,19 @@
+program a;
+PROCEDURE  HANOI(N:INTEGER;  S:INTEGER;  Z:INTEGER);
+VAR
+    HANOI: INTEGER;
+BEGIN
+  IF  N != 0  THEN
+    BEGIN
+      CALL  HANOI(N-1,S,6-S-Z);
+      I:=I+1;
+      CALL  WRITELN;
+      CALL  WRITEI(I);
+      CALL  WRITEI(N);
+      CALL  WRITEI(S);
+      CALL  WRITEI(Z);
+      CALL  HANOI(N-1,6-S-Z,Z)
+    END
+END;
+begin
+end.

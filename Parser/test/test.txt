@@ -1,0 +1,14 @@
+program test;
+
+var
+    x: integer;
+    y: integer;
+
+procedure proc(a: integer; b: integer);
+    begin
+    end;
+
+begin
+    proc(x, y);
+    writei(x);
+end.

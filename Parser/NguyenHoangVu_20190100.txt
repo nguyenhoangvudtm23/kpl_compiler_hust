@@ -1,0 +1,23 @@
+program test;
+function square(a:INTEGER) : INTEGER
+begin
+    square := a * a;
+end;
+
+function SumofSquare(n: INTEGER): INTEGER 
+var i : INTEGER;
+    a : INTEGER;
+begin 
+    for i:=1 to n do
+        begin
+            a := a + square(i);
+        end 
+    SumofSquare := a;
+end;    
+
+var n: INTEGER
+begin
+    readi(n):
+    writei(SumofSquare(n));
+end.
+    

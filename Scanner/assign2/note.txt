@@ -1,0 +1,15 @@
+Replace the lexical rules of KPL language with the following rules:
+Identifiers:
+A valid identifier can have letters (both uppercase and lowercase letters), digits and underscores.
+1.The first letter of an identifier should be a letter
+2.You cannot use keywords as identifiers.
+3.Length of an identì?er is not over than 15.
+4.Identifiers are case-sensitive
+Keywords:
+All keywords must be written in lowercase
+Comments:
+Single-line comment : Starts with //, end at end of line.
+Special Symbols:
+Relop: not equal to => 2 choices <> or ><
+Character/String constants:
+String constants are allowed in KPL. A string constant can contain a sequence of printable symbols, length not exceeding 255, enclosed in single quotes. A single quote is written as ''''
